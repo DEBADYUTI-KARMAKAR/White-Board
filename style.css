@@ -40,7 +40,7 @@ body{
 
 .pencil-tool-cont{
     height: 5rem;
-    width:  8rem;
+    width:  7rem;
     background-color: lightgreen;
     position: absolute;
     top: 7rem;
@@ -79,4 +79,21 @@ body{
 }
 .red{
     background-color: red;
+}
+.eraser-tool-cont{
+    height: 2rem;
+    width:  5rem;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7rem;
+    left: 33.5vw;
+    
+
+}
+.eraser-width-cont input {
+    width: 80%;
+
 }
