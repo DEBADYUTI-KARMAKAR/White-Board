@@ -59,8 +59,22 @@ body{
 }
 .pencil-color-cont{
     background-color: yellow;
+    height: calc(100% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 .pencil-color{
     width: 1rem;
     height: 1rem;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: rgb(0, 0, 255);
+}
+.red{
+    background-color: red;
 }
