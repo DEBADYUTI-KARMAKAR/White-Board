@@ -45,6 +45,7 @@ body{
     position: absolute;
     top: 7rem;
     left: 25vw;
+    border-radius: 3px;
 }
 .pencil-width-cont{
     background-color: orange;
@@ -66,8 +67,9 @@ body{
     gap: 1rem;
 }
 .pencil-color{
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 2rem;
+    border-radius: 50%;
 }
 .black{
     background-color: black;
